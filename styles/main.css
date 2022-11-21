@@ -1,0 +1,87 @@
+.all_area {
+    background: #8ECAE6;
+    color: #023047
+}
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.fish__image {
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+}
+
+.fish_card {
+    flex-basis: 16%;  /* Make each child element the same width */
+    border: 3px solid #023047;
+    background-color: #F3DFAC;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 5px#023047;
+    
+}
+
+.top_section {
+    justify-content:flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tankCare {
+    width: 35%;
+    padding-left: 15px;
+    margin-left: 15px;
+    background-color: #F3DFAC;
+    border-radius: 5px;
+    border: 3px solid #023047;
+    box-shadow: 5px 5px 5px#023047;
+}
+
+.travelquotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.quote {
+    margin-top: 15px;
+    justify-content: space-between;
+    font-style: italic;
+    background-color: #F3DFAC;
+    border: 3px solid #023047;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px#023047;
+}
+
+.welcomemsg {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #F3DFAC;
+    border: 3px solid #023047;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px#023047;
+}
+
+.fish_title, .havest_title, .tank_title {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;    
+}
+
+.travelinfo {
+    margin-top: 15px;
+    background-color: #F3DFAC;
+    border: 3px solid #023047;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px#023047;
+}
